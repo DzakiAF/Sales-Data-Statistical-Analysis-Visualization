@@ -1,69 +1,72 @@
-📊 E-Commerce Product Sales Analysis with Statistical Inference
-📁 Project Overview
-This project performs an end-to-end Exploratory Data Analysis (EDA) and Statistical Inference on a product sales dataset. It focuses on identifying product trends, analyzing customer return behavior, testing data normality, and applying statistical hypothesis testing.
+# 📊📈 **E-Commerce Product Sales Analysis with Statistical Inference**  
 
-This analysis is part of a data science learning milestone and demonstrates both technical and analytical thinking using Python.
+---
 
-🧰 Tools and Libraries Used
-Python (Jupyter Notebook)
+## 🧾 **Project Overview**
 
-Pandas, NumPy
+This project is an end-to-end **Exploratory Data Analysis (EDA)** and **Statistical Inference** of e-commerce product sales data. It covers data distribution analysis, normality testing, and hypothesis testing, alongside insightful visualizations.
 
-Matplotlib, Seaborn
+---
 
-Scipy.stats
+## 🛠️ **Tools and Libraries Used**
 
-Statsmodels
+- Python (Jupyter Notebook)
+- `pandas`, `numpy`
+- `matplotlib`, `seaborn`
+- `scipy.stats`, `statsmodels`
 
-🔍 Key Analyses
-1. Exploratory Data Analysis (EDA)
-Top 5 Products Sold
+---
 
-Sales Distribution by Product Category
+## 🔍 **Key Analyses**
 
-Most Returned Products by Category
+### 1️⃣ Exploratory Data Analysis (EDA)
+- 🏆 Top 5 Most Sold Products  
+- 📊 Sales Distribution by Category  
+- 🔁 Most Returned Products by Category  
+- 📈 Monthly Sales Trend  
 
-Monthly Sales Trend
+### 2️⃣ Statistical Summary
+- ⚖️ **Skewness & Kurtosis**  
+- 📐 **Normality Tests** (Shapiro-Wilk, D’Agostino)  
+- 🔍 Visual Inspection (Histogram, Q-Q Plot)
 
-2. Statistical Summary
-Skewness & Kurtosis: Understanding data distribution
+### 3️⃣ Inferential Statistics
+- 🧪 **Two-Sample Independent T-Test**  
+- 🧪 **Mann-Whitney U Test**  
+- ✅ Testing if price differences between regions (e.g. Jabodetabek vs non-Jabodetabek) are statistically significant
 
-Uji Normalitas (Normality Test): Shapiro-Wilk & D’Agostino K-squared
+---
 
-Visual Checks: Histogram, Q-Q Plot
+## 📊 **Visualizations**
 
-3. Inferential Statistics
-Hypothesis Testing:
+- 📦 Bar Plot: Top 5 Products Sold  
+- 🧁 Pie Chart: Sales by Category  
+- 📉 Bar Chart: Most Returned Products  
+- 📆 Line Chart: Sales Trend Over Time  
+- 📈 Histogram & Q-Q Plot for Distribution Check  
 
-Two-sample Independent T-Test
+---
 
-Mann-Whitney U Test (as non-parametric alternative)
+## 💡 **Insights**
 
-Goal: To assess if there is a significant difference in product prices between two groups (e.g., Jabodetabek vs. non-Jabodetabek)
+- Categories with high return rates may indicate customer dissatisfaction or mismatched expectations  
+- The dataset shows **right skewness** and **positive kurtosis** → non-normal distribution  
+- Some variables **do not pass** normality test → non-parametric testing applied  
+- **Significant price differences** found across region groups  
 
-📈 Visualizations
-Bar Plot: Top 5 Most Sold Products
+---
 
-Pie Chart: Sales Distribution by Category
+## 🧠 **What I Learned**
 
-Bar Chart: Most Returned Products by Category
+- Importance of checking data distribution before statistical testing  
+- How to choose between parametric vs non-parametric tests  
+- Combining visual insights with statistical rigor  
 
-Line Chart: Monthly Sales Trends
+---
 
-Histograms and Q-Q Plots for Normality Check
+## 🚀 **How to Run the Project**
 
-📌 Insights
-Certain categories have higher return rates — potential product quality or customer expectation issues.
-
-The price distribution is right-skewed with notable outliers.
-
-Not all groups follow a normal distribution → careful selection of hypothesis test is needed.
-
-Statistical tests reveal significant differences in certain product prices based on regional segmentation.
-
-🧠 Learning Points
-Real-world data often requires detailed cleaning before statistical analysis.
-
-Visual inspection + formal tests are crucial to validate assumptions like normality.
-
-Proper selection of hypothesis tests enhances the validity of conclusions.
+```bash
+git clone https://github.com/YourUsername/your-repo-name.git
+cd your-repo-name
+jupyter notebook h8dsft_Milestone1_dzaki_ahmad_fardian.ipynb
