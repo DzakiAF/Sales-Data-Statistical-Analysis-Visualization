@@ -69,4 +69,4 @@ This project is an end-to-end **Exploratory Data Analysis (EDA)** and **Statisti
 ```bash
 git clone https://github.com/YourUsername/your-repo-name.git
 cd your-repo-name
-jupyter notebook h8dsft_Milestone1_dzaki_ahmad_fardian.ipynb
+jupyter notebook sales_analysis_and_visualization.ipynb
